@@ -1,0 +1,390 @@
+{
+  "utterances_scored": 5409,
+  "excluded": {
+    "reference has <INAUDIBLE>": 49,
+    "empty reference after normalisation": 3
+  },
+  "overall": {
+    "utterances": 5409,
+    "ref_words": 88726,
+    "wer": {
+      "value": 0.9489552104231004,
+      "low": 0.9434173379320919,
+      "high": 0.9548427674141804
+    },
+    "cer": {
+      "value": 0.5918907819438634,
+      "low": 0.5840442849663833,
+      "high": 0.6005282274178566
+    },
+    "substitutions": 50014,
+    "deletions": 30257,
+    "insertions": 3926
+  },
+  "number_free": {
+    "utterances": 4775,
+    "ref_words": 75888,
+    "wer": {
+      "value": 0.9477124183006536,
+      "low": 0.9419715382179084,
+      "high": 0.9533485124165707
+    },
+    "cer": {
+      "value": 0.5874985616396631,
+      "low": 0.5787506274707463,
+      "high": 0.5966999865516892
+    },
+    "substitutions": 42919,
+    "deletions": 25667,
+    "insertions": 3334
+  },
+  "slices": {
+    "region": {
+      "east": {
+        "utterances": 2700,
+        "ref_words": 41119,
+        "wer": {
+          "value": 0.9564921325907731,
+          "low": 0.947501541914713,
+          "high": 0.9658136973592759
+        },
+        "cer": {
+          "value": 0.5947642363564022,
+          "low": 0.5827341128146261,
+          "high": 0.6068531154494591
+        },
+        "substitutions": 22735,
+        "deletions": 14293,
+        "insertions": 2302
+      },
+      "mid": {
+        "utterances": 521,
+        "ref_words": 7206,
+        "wer": {
+          "value": 0.9672495142936441,
+          "low": 0.9513800774763875,
+          "high": 0.9862433430313032
+        },
+        "cer": {
+          "value": 0.6708590815461044,
+          "low": 0.6424417516360825,
+          "high": 0.7013799263943544
+        },
+        "substitutions": 3585,
+        "deletions": 3079,
+        "insertions": 306
+      },
+      "north": {
+        "utterances": 412,
+        "ref_words": 7860,
+        "wer": {
+          "value": 0.9063613231552163,
+          "low": 0.8852141864888936,
+          "high": 0.9266570244385856
+        },
+        "cer": {
+          "value": 0.5345900996995951,
+          "low": 0.5056992611622626,
+          "high": 0.5616330017226716
+        },
+        "substitutions": 4419,
+        "deletions": 2417,
+        "insertions": 288
+      },
+      "south": {
+        "utterances": 480,
+        "ref_words": 8725,
+        "wer": {
+          "value": 0.9322636103151862,
+          "low": 0.9189370904236226,
+          "high": 0.9475761051750112
+        },
+        "cer": {
+          "value": 0.5371109654610816,
+          "low": 0.5138830549112137,
+          "high": 0.5617272484337974
+        },
+        "substitutions": 5517,
+        "deletions": 2402,
+        "insertions": 215
+      },
+      "unknown": {
+        "utterances": 2,
+        "ref_words": 8,
+        "wer": {
+          "value": 1.0,
+          "low": 1.0,
+          "high": 1.0
+        },
+        "cer": {
+          "value": 0.8541666666666666,
+          "low": 0.6956521739130435,
+          "high": 1.0
+        },
+        "substitutions": 1,
+        "deletions": 7,
+        "insertions": 0
+      },
+      "west": {
+        "utterances": 1294,
+        "ref_words": 23808,
+        "wer": {
+          "value": 0.9505628360215054,
+          "low": 0.9415419087168463,
+          "high": 0.9592725689573901
+        },
+        "cer": {
+          "value": 0.6021796180201195,
+          "low": 0.58701616126581,
+          "high": 0.6174769587939373
+        },
+        "substitutions": 13757,
+        "deletions": 8059,
+        "insertions": 815
+      }
+    },
+    "gender": {
+      "female": {
+        "utterances": 2352,
+        "ref_words": 38483,
+        "wer": {
+          "value": 0.9437154068030039,
+          "low": 0.9352754671200378,
+          "high": 0.9522740478786144
+        },
+        "cer": {
+          "value": 0.5941995473121101,
+          "low": 0.5812849285881833,
+          "high": 0.6063892864725113
+        },
+        "substitutions": 21342,
+        "deletions": 13454,
+        "insertions": 1521
+      },
+      "male": {
+        "utterances": 3055,
+        "ref_words": 50235,
+        "wer": {
+          "value": 0.9529610829103214,
+          "low": 0.9462077455803659,
+          "high": 0.9601931359501548
+        },
+        "cer": {
+          "value": 0.5900951853565146,
+          "low": 0.5797496129872551,
+          "high": 0.6014460160148418
+        },
+        "substitutions": 28671,
+        "deletions": 16796,
+        "insertions": 2405
+      },
+      "unknown": {
+        "utterances": 2,
+        "ref_words": 8,
+        "wer": {
+          "value": 1.0,
+          "low": 1.0,
+          "high": 1.0
+        },
+        "cer": {
+          "value": 0.8541666666666666,
+          "low": 0.6956521739130435,
+          "high": 1.0
+        },
+        "substitutions": 1,
+        "deletions": 7,
+        "insertions": 0
+      }
+    },
+    "duration_bucket": {
+      "0-3s": {
+        "utterances": 1179,
+        "ref_words": 5659,
+        "wer": {
+          "value": 1.040819932850327,
+          "low": 1.0282331470374007,
+          "high": 1.0554916200305562
+        },
+        "cer": {
+          "value": 0.6750943043302055,
+          "low": 0.6606155427780728,
+          "high": 0.6922087440155424
+        },
+        "substitutions": 3363,
+        "deletions": 2072,
+        "insertions": 455
+      },
+      "10s+": {
+        "utterances": 929,
+        "ref_words": 28668,
+        "wer": {
+          "value": 0.9126901074368634,
+          "low": 0.9009438429451957,
+          "high": 0.9241059731398505
+        },
+        "cer": {
+          "value": 0.5685430795837539,
+          "low": 0.5494945418457716,
+          "high": 0.5855724658605137
+        },
+        "substitutions": 15345,
+        "deletions": 9849,
+        "insertions": 971
+      },
+      "3-6s": {
+        "utterances": 1607,
+        "ref_words": 19593,
+        "wer": {
+          "value": 0.9867299545756137,
+          "low": 0.9775226389200852,
+          "high": 0.9962798185270242
+        },
+        "cer": {
+          "value": 0.6255275835139475,
+          "low": 0.6128879574497068,
+          "high": 0.6374587323707426
+        },
+        "substitutions": 11198,
+        "deletions": 7136,
+        "insertions": 999
+      },
+      "6-10s": {
+        "utterances": 1694,
+        "ref_words": 34806,
+        "wer": {
+          "value": 0.9426248347985979,
+          "low": 0.9338412464656339,
+          "high": 0.9517442021414827
+        },
+        "cer": {
+          "value": 0.5795056096718816,
+          "low": 0.5673937575987537,
+          "high": 0.5915595764313737
+        },
+        "substitutions": 20108,
+        "deletions": 11200,
+        "insertions": 1501
+      }
+    },
+    "seen_speaker": {
+      "False": {
+        "utterances": 3037,
+        "ref_words": 48960,
+        "wer": {
+          "value": 0.9547385620915033,
+          "low": 0.9477067141389628,
+          "high": 0.9614535071932719
+        },
+        "cer": {
+          "value": 0.5934839000240898,
+          "low": 0.582444687854839,
+          "high": 0.604214741980846
+        },
+        "substitutions": 27910,
+        "deletions": 16662,
+        "insertions": 2172
+      },
+      "True": {
+        "utterances": 2372,
+        "ref_words": 39766,
+        "wer": {
+          "value": 0.9418347331891566,
+          "low": 0.9332254282924832,
+          "high": 0.9505667233640621
+        },
+        "cer": {
+          "value": 0.5899461767601222,
+          "low": 0.5772917669745038,
+          "high": 0.6025246400796853
+        },
+        "substitutions": 22104,
+        "deletions": 13595,
+        "insertions": 1754
+      }
+    },
+    "has_number": {
+      "False": {
+        "utterances": 4775,
+        "ref_words": 75888,
+        "wer": {
+          "value": 0.9477124183006536,
+          "low": 0.9419715382179084,
+          "high": 0.9533485124165707
+        },
+        "cer": {
+          "value": 0.5874985616396631,
+          "low": 0.5787506274707463,
+          "high": 0.5966999865516892
+        },
+        "substitutions": 42919,
+        "deletions": 25667,
+        "insertions": 3334
+      },
+      "True": {
+        "utterances": 634,
+        "ref_words": 12838,
+        "wer": {
+          "value": 0.9563016046113102,
+          "low": 0.941431879811439,
+          "high": 0.9703031148409105
+        },
+        "cer": {
+          "value": 0.616889037278646,
+          "low": 0.5946776234339154,
+          "high": 0.638472881853662
+        },
+        "substitutions": 7095,
+        "deletions": 4590,
+        "insertions": 592
+      }
+    },
+    "has_name": {
+      "False": {
+        "utterances": 3734,
+        "ref_words": 57897,
+        "wer": {
+          "value": 0.948702005285248,
+          "low": 0.9418525542429625,
+          "high": 0.9551163613894801
+        },
+        "cer": {
+          "value": 0.5886384449499277,
+          "low": 0.5788468877140421,
+          "high": 0.5982644945849871
+        },
+        "substitutions": 32849,
+        "deletions": 19623,
+        "insertions": 2455
+      },
+      "True": {
+        "utterances": 1675,
+        "ref_words": 30829,
+        "wer": {
+          "value": 0.9494307308054105,
+          "low": 0.9403222021081831,
+          "high": 0.9598589978105673
+        },
+        "cer": {
+          "value": 0.5979208658312155,
+          "low": 0.5840484369906839,
+          "high": 0.6119032949554328
+        },
+        "substitutions": 17165,
+        "deletions": 10634,
+        "insertions": 1471
+      }
+    }
+  },
+  "names": {
+    "tokens": 3134,
+    "recognised": 336,
+    "recall": 0.10721123165283983
+  },
+  "numbers": {
+    "tokens": 1245,
+    "recognised": 28,
+    "recall": 0.02248995983935743,
+    "utterances_with_digits_in_hypothesis": 403
+  },
+  "truncated_utterances": 0
+}

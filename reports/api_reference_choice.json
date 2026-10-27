@@ -1,0 +1,8 @@
+{
+  "rule": "lowest WER on validation utterances by speakers not in training",
+  "unseen_speaker_validation_wer": {
+    "reference-mistral-api-auto": 0.11662581699346405,
+    "reference-mistral-api-no": 0.11470588235294117
+  },
+  "chosen": "reference-mistral-api-no"
+}

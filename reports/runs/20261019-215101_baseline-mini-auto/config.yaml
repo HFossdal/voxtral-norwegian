@@ -1,0 +1,21 @@
+name: baseline-mini-auto
+seed: 0
+output_root: /content/drive/MyDrive/voxtral-runs
+model:
+  family: voxtral
+  hf_id: mistralai/Voxtral-Mini-3B-2507
+  tiny: false
+  dtype: bfloat16
+  transcription_delay_ms: 480
+  language: null
+data:
+  dataset_id: scribe-project/npsc_nb
+  subset_dir: null
+  download: true
+  cache_dir: data/cache
+  exclude_train_speakers_from:
+  - test
+runtime:
+  device: cuda
+  batch_size: 8
+  max_new_tokens: 256

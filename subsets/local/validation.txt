@@ -1,0 +1,22 @@
+# 20 validation utterances of scribe-project/npsc_nb, stratified by region.
+# duration <= 8.0 s, seed 0. Made by scripts/make_subsets.py.
+npsc_18015
+npsc_18016
+npsc_46616
+npsc_46678
+npsc_46837
+npsc_47083
+npsc_47148
+npsc_47344
+npsc_47793
+npsc_54144
+npsc_54185
+npsc_54861
+npsc_55106
+npsc_55278
+npsc_56055
+npsc_56250
+npsc_56560
+npsc_56801
+npsc_56834
+npsc_57251

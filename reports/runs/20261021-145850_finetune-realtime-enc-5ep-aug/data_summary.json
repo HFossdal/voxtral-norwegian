@@ -1,0 +1,9 @@
+{
+  "utterances": 18316,
+  "examples": 18106,
+  "hours": 32.18,
+  "dropped": {
+    "transcript has <INAUDIBLE>": 204,
+    "words don't fit the stream": 6
+  }
+}

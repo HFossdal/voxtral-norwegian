@@ -1,0 +1,39 @@
+name: finetune-realtime-enc-8ep-aug-960ms-step8000
+seed: 0
+output_root: /content/drive/MyDrive/voxtral-runs
+model:
+  family: voxtral_realtime
+  hf_id: mistralai/Voxtral-Mini-4B-Realtime-2602
+  tiny: false
+  dtype: bfloat16
+  transcription_delay_ms: 960
+  language: null
+  adapter: /content/drive/MyDrive/voxtral-runs/20261022-205813_finetune-realtime-enc-8ep-aug-960ms/adapters/step-008000
+data:
+  dataset_id: scribe-project/npsc_nb
+  subset_dir: null
+  download: true
+  cache_dir: data/cache
+  exclude_train_speakers_from:
+  - test
+runtime:
+  device: cuda
+  batch_size: 8
+  max_new_tokens: 256
+train:
+  alignments: null
+  selection_ids: subsets/selection/validation.txt
+  lora_rank: 16
+  lora_alpha: 32
+  lora_dropout: 0.05
+  lora_encoder: false
+  augment: false
+  learning_rate: 0.0001
+  warmup_steps: 100
+  epochs: 2
+  batch_size: 16
+  micro_batch_size: 8
+  max_grad_norm: 1.0
+  log_every: 20
+  save_every: 250
+  eval_every: 500

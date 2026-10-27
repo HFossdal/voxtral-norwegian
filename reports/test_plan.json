@@ -1,0 +1,21 @@
+{
+  "rule": "per model, the run with the lowest full-validation WER is its candidate; the final model is the better candidate",
+  "validation_wer": {
+    "finetune-realtime-enc-aug-ssc": 0.09254333566260171,
+    "finetune-mini-enc-aug-ssc": 0.06165047449451119,
+    "finetune-mini-enc-aug-ssc-lr2e-4": 0.058381984987489574
+  },
+  "candidates": {
+    "realtime": "finetune-realtime-enc-aug-ssc",
+    "mini": "finetune-mini-enc-aug-ssc-lr2e-4"
+  },
+  "final": "finetune-mini-enc-aug-ssc-lr2e-4",
+  "runs": {
+    "finetune-realtime-3ep": "reports/runs/20261020-170946_finetune-realtime-3ep-step3396",
+    "finetune-realtime-enc-aug-ssc": "reports/runs/20261024-082207_finetune-realtime-enc-aug-ssc-step12000",
+    "finetune-mini-enc-aug-ssc-lr2e-4": "reports/runs/20261025-234651_finetune-mini-enc-aug-ssc-lr2e-4-step12000",
+    "reference-mistral-api-no": "reports/runs/20261024-112447_reference-mistral-api-no",
+    "reference-nb-whisper-large": "reports/runs/20261022-152401_reference-nb-whisper-large",
+    "reference-nb-whisper-large-verbatim": "reports/runs/20261022-153138_reference-nb-whisper-large-verbatim"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "rule": "lowest WER on validation utterances by speakers not in training",
+  "unseen_speaker_validation_wer": {
+    "baseline-mini-auto": 0.40980392156862744,
+    "baseline-mini-no": 0.23792892156862744,
+    "baseline-mini-nb": 0.22312091503267975
+  },
+  "chosen": "baseline-mini-nb"
+}

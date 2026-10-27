@@ -1,0 +1,17 @@
+{
+  "rule": "lowest WER on the selection set (unseen-speaker validation, D4, D22)",
+  "step": 8000,
+  "adapter": "/content/drive/MyDrive/voxtral-runs/20261024-140758_finetune-mini-enc-aug-ssc/adapters/step-008000",
+  "selection_wer": 0.07055016181229773,
+  "base_model_selection_wer": 0.21952535059331177,
+  "evaluated_steps": [
+    0,
+    2000,
+    4000,
+    6000,
+    8000,
+    10000,
+    12000,
+    12378
+  ]
+}

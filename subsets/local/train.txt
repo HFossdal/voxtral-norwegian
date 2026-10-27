@@ -1,0 +1,22 @@
+# 20 train utterances of scribe-project/npsc_nb, stratified by region.
+# duration <= 8.0 s, seed 0. Made by scripts/make_subsets.py.
+npsc_19313
+npsc_22610
+npsc_30741
+npsc_32351
+npsc_37585
+npsc_4043
+npsc_41923
+npsc_42906
+npsc_42911
+npsc_4781
+npsc_48818
+npsc_4884
+npsc_52986
+npsc_58790
+npsc_5943
+npsc_6311
+npsc_64722
+npsc_65162
+npsc_65784
+npsc_9416

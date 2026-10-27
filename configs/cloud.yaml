@@ -1,0 +1,20 @@
+# Rented single-GPU profile: the real checkpoint and full splits.
+# Switch to the offline fallback model with:
+#   --set model.family=voxtral model.hf_id=mistralai/Voxtral-Mini-3B-2507
+name: cloud
+seed: 0
+model:
+  family: voxtral_realtime
+  hf_id: mistralai/Voxtral-Mini-4B-Realtime-2602
+  tiny: false
+  dtype: bfloat16
+  transcription_delay_ms: 480
+data:
+  dataset_id: scribe-project/npsc_nb
+  subset_dir: null
+  download: true
+  # Test speakers never occur in training, so test measures unseen speakers.
+  exclude_train_speakers_from: [test]
+runtime:
+  device: cuda
+  batch_size: 8

@@ -1,0 +1,19 @@
+# Laptop profile: CPU only, no model download. Checks that the code runs end
+# to end; the numbers it produces are meaningless.
+name: local
+seed: 0
+model:
+  family: voxtral_realtime
+  hf_id: mistralai/Voxtral-Mini-4B-Realtime-2602
+  tiny: true
+  dtype: float32
+  transcription_delay_ms: 480
+data:
+  dataset_id: scribe-project/npsc_nb
+  subset_dir: subsets/local
+  download: false
+  # Test speakers never occur in training, so test measures unseen speakers.
+  exclude_train_speakers_from: [test]
+runtime:
+  device: cpu
+  batch_size: 2

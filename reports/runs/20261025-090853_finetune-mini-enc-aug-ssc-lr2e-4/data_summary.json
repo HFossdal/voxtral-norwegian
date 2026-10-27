@@ -1,0 +1,10 @@
+{
+  "utterances": 66207,
+  "npsc_utterances": 18316,
+  "examples": 66003,
+  "hours": 101.62,
+  "extra_hours": 69.42,
+  "dropped": {
+    "transcript has <INAUDIBLE>": 204
+  }
+}

@@ -1,0 +1,22 @@
+# 20 test utterances of scribe-project/npsc_nb, stratified by region.
+# duration <= 8.0 s, seed 0. Made by scripts/make_subsets.py.
+npsc_11324
+npsc_11338
+npsc_11453
+npsc_12061
+npsc_12616
+npsc_12649
+npsc_12723
+npsc_12943
+npsc_13079
+npsc_13549
+npsc_13981
+npsc_35299
+npsc_60745
+npsc_61177
+npsc_61540
+npsc_61736
+npsc_61812
+npsc_7332
+npsc_7401
+npsc_7444

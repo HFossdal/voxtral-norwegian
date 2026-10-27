@@ -1,0 +1,140 @@
+{
+  "aligner": "NbAiLab/nb-wav2vec2-300m-bokmaal-v2",
+  "utterances": 18316,
+  "in_file": 18316,
+  "failed": 0,
+  "no_words": 0,
+  "log_prob_quantiles": {
+    "0.01": -0.6326,
+    "0.05": -0.3654,
+    "0.25": -0.1853,
+    "0.5": -0.1156
+  },
+  "worst": [
+    {
+      "utterance_id": "npsc_30884",
+      "log_prob": -4.4594,
+      "text": "og det er jo nettopp det kritikken min er"
+    },
+    {
+      "utterance_id": "npsc_37531",
+      "log_prob": -2.791,
+      "text": "jeg har bare lyst å sitere"
+    },
+    {
+      "utterance_id": "npsc_18745",
+      "log_prob": -2.5257,
+      "text": "det har blitt advokatmat"
+    },
+    {
+      "utterance_id": "npsc_52798",
+      "log_prob": -2.3453,
+      "text": "det har jo etter hvert blitt en interessant debatt det her"
+    },
+    {
+      "utterance_id": "npsc_5849",
+      "log_prob": -2.325,
+      "text": "ja president statsråden svarer jo egentlig ikke på spørsmålet"
+    },
+    {
+      "utterance_id": "npsc_27467",
+      "log_prob": -2.2332,
+      "text": "det er dårlig for forbindelsen mellom eee vestlandet og eee østlandet"
+    },
+    {
+      "utterance_id": "npsc_42497",
+      "log_prob": -2.1906,
+      "text": "vi har vært helt tydelige på det"
+    },
+    {
+      "utterance_id": "npsc_3934",
+      "log_prob": -2.1686,
+      "text": "det er jeg fornøyd med"
+    },
+    {
+      "utterance_id": "npsc_35036",
+      "log_prob": -2.0603,
+      "text": "de har kommet med skriftlige tilbakemeldinger"
+    },
+    {
+      "utterance_id": "npsc_65226",
+      "log_prob": -1.998,
+      "text": "det har aldri gått så godt før"
+    },
+    {
+      "utterance_id": "npsc_2033",
+      "log_prob": -1.9298,
+      "text": "jeg tror det kan være fornuftig å ha den type registreringsplikt eee også slik at vi får en bedre oversikt"
+    },
+    {
+      "utterance_id": "npsc_26611",
+      "log_prob": -1.9104,
+      "text": "merkelig statsråd"
+    },
+    {
+      "utterance_id": "npsc_32580",
+      "log_prob": -1.8145,
+      "text": "brende"
+    },
+    {
+      "utterance_id": "npsc_32894",
+      "log_prob": -1.8044,
+      "text": "det var heller ikke noe man utredet når man satt i regjering"
+    },
+    {
+      "utterance_id": "npsc_2297",
+      "log_prob": -1.7265,
+      "text": "det er ikke det forslaget handler om"
+    },
+    {
+      "utterance_id": "npsc_66498",
+      "log_prob": -1.6881,
+      "text": "bakke-jensen"
+    },
+    {
+      "utterance_id": "npsc_28239",
+      "log_prob": -1.676,
+      "text": "da måtte man sette opp sette opp hindringer"
+    },
+    {
+      "utterance_id": "npsc_32328",
+      "log_prob": -1.6633,
+      "text": "det var ikke noe stor byråkratisk ordning"
+    },
+    {
+      "utterance_id": "npsc_3979",
+      "log_prob": -1.6167,
+      "text": "jeg er veldig godt fornøyd med jeg at vi så langt har klart å få gjennomslag for å redusere det samlede skatte- og avgiftstrykket med tjueén milliarder kroner"
+    },
+    {
+      "utterance_id": "npsc_16992",
+      "log_prob": -1.5673,
+      "text": "og så ser vi president"
+    },
+    {
+      "utterance_id": "npsc_40421",
+      "log_prob": -1.5535,
+      "text": "jeg tror det er riktig å flytte ut oppgaver"
+    },
+    {
+      "utterance_id": "npsc_18994",
+      "log_prob": -1.5418,
+      "text": "det er jo viktig for kommunene å få forklart"
+    },
+    {
+      "utterance_id": "npsc_17290",
+      "log_prob": -1.4778,
+      "text": "det hadde hadde jeg og håpt"
+    },
+    {
+      "utterance_id": "npsc_6753",
+      "log_prob": -1.4602,
+      "text": "arbeiderpartiet har hatt justisministeren i mange mange år og har til de grader hatt mulighet til å gjort noe med det men da prata man uten å levere"
+    },
+    {
+      "utterance_id": "npsc_48501",
+      "log_prob": -1.438,
+      "text": "det handler om helseutgifter"
+    }
+  ]
+}
